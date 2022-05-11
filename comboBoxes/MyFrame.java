@@ -13,7 +13,7 @@ public class MyFrame extends JFrame implements ActionListener {
 	
 	public MyFrame() {
 		
-		String[] animals = {"dog","cat","bird"};//Wrapper class must be used.
+		String[] animals = {"dog","cat","bird"};//Wrapper class must be used while store primitive data types in array.
 		
 		comboBox = new JComboBox(animals);//Create combo box with reference class.
 		comboBox.addActionListener(this);//Add action to the combo box.
